@@ -82,7 +82,7 @@ function! Git_diff_windows(vertsplit, auto, opts)
     endif
 endfunction
 
-map ,gd :call Git_diff_windows(1,1,"-C")
+map ,gd :call Git_diff_windows(1,1,"-C")<cr>
 
 " au! BufRead,BufNewFile COMMIT_EDITMSG     setf git
 
