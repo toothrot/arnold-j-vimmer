@@ -5,7 +5,10 @@ set expandtab
 set shiftwidth=2
 set autoindent
 set incsearch
+set cindent
 set smartindent
+set showmatch
+set mat=5
 set wildmenu
 color desert
 set mouse=a
