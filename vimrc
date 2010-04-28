@@ -102,3 +102,8 @@ endif
 if &term == "screen" || &term == "xterm"
   set title
 endif
+if has("gui_running")
+  set fuoptions=maxvert,maxhorz
+"  au GUIEnter * set fullscreen
+endif
+
