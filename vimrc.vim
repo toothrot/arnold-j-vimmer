@@ -5,7 +5,6 @@ set expandtab
 set shiftwidth=2
 set autoindent
 set incsearch
-set cindent
 set smartindent
 set showmatch
 set mat=5
